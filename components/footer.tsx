@@ -138,17 +138,17 @@ export default function Footer() {
       <FadeIn delay={0.5}>
         <div className="container mt-8 border-t border-gray-200 pt-8 px-4 md:px-6">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-            <p className="text-center text-sm text-gray-600">
-              2025 ~ made with <span className="text-red-500">❤</span>{" "}
-              <a
-                href="https://oliwernoga.pl/"
-                className="text-gray-900 hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                naroors
-              </a>
-            </p>
+              <p className="text-center text-sm text-gray-600">
+                2025 ~ made with <span className="text-red-500">❤</span> by{" "}
+                <a
+                  href="https://oliwernoga.pl/"
+                  className="text-gray-900 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  naroors
+                </a>
+              </p>
             <div className="flex gap-4">
               {["Privacy Policy", "Terms of Service", "Cookie Policy"].map((item, index) => (
                 <motion.div
